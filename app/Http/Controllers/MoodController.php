@@ -45,7 +45,7 @@ class MoodController extends Controller
 
       Mood::create($moodData);
 
-      return redirect()->route('entries.mood')
+      return redirect()->route('moods.index')
         ->with('success', 'Mood created.');
     }
 
