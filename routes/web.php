@@ -9,3 +9,7 @@ use App\Http\Controllers\EntryController;
 Route::get('/', [HomeController::class, 'index']);
 Route::resource('moods', MoodController::class);
 Route::resource('entries', EntryController::class);
+
+Route::get('/my-task', function () {
+    return '✅ Mood Tracker Task by Shopnil is working!';
+});
