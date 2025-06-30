@@ -64,3 +64,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## ✅ Customization by Shopnil (JAM Tachbologies)
+
+- Added new route `/my-task` to show task is working.
+- This confirms I’ve successfully run the project and made changes.
